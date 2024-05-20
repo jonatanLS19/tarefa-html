@@ -7,13 +7,24 @@
 </head>
 <body>
    <header>
-            <b>FORMULARIO DE CADASTRO</b><br>
+            <h3><b>FORMULARIO DE CADASTRO</b><br></h3>
     </header>
         <form>
-           <h6><label>Nome  </label> <input type="text"></h6>
-           <h6><label>E-mail  </label> <input type="email"></h6>
-           <h6><label>Senha  </label> <input type="password"></h6>
-           <button> cadastro </button>
+            <div>
+                <h6><label id="nome" for="nome">Nome</label>
+                <input type="text"></h6>
+            </div>
+          <div> 
+            <h6>
+                <label id="E-mail" for="E-mail" >E-mail</label> 
+                <input type="email">
+            </h6>
+           </div>
+           <div><h6><label id="senha" for="senha">Senha</label>
+            <input type="password">
+        </h6>
+           </div>
+           <button type="submit">Cadastro</button>
         </form>
     
 </body>
